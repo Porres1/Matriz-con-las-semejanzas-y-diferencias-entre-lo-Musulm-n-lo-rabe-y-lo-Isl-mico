@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Matriz Comparativa: Musulmán, Árabe, Islámico</title>
+  <!-- Tipografías de Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Estilo general de la página */
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-family: 'Montserrat', sans-serif;
+      color: #FFA500; /* anaranjado */
+    }
+    /* Contenedor del accordion */
+    .accordion {
+      max-width: 800px;
+      margin: 0 auto;
+      border: 1px solid #fff;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    .accordion-item {
+      border-bottom: 1px solid #fff;
+    }
+    .accordion-item:last-child {
+      border-bottom: none;
+    }
+    /* Encabezados del accordion */
+    .accordion-header {
+      background-color: #fff;
+      color: #000;
+      padding: 15px;
+      cursor: pointer;
+      font-size: 1.2em;
+      transition: background-color 0.3s;
+    }
+    .accordion-header:hover {
+      background-color: #f0f0f0;
+    }
+    /* Contenido del accordion */
+    .accordion-content {
+      display: none;
+      background-color: #222;
+      padding: 15px;
+    }
+    /* Estilos para la tabla */
+    .accordion-content table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .accordion-content th, .accordion-content td {
+      padding: 10px;
+      border: 1px solid #444;
+      text-align: left;
+    }
+    .accordion-content th {
+      background-color: #333;
+      color: #FFA500;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .accordion-content td {
+      background-color: #111;
+    }
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <h1>Matriz Comparativa: Musulmán, Árabe, Islámico</h1>
+  <div class="accordion">
+    <!-- Sección Musulmán -->
+    <div class="accordion-item">
+      <div class="accordion-header" onclick="toggleAccordion(this)">Musulmán</div>
+      <div class="accordion-content">
+        <table>
+          <tr>
+            <th>Categoría</th>
+            <th>Información</th>
+          </tr>
+          <tr>
+            <td>Definición</td>
+            <td>Persona que sigue el islam.</td>
+          </tr>
+          <tr>
+            <td>Religión</td>
+            <td>Sí, sigue la religión islámica.</td>
+          </tr>
+          <tr>
+            <td>Etnicidad</td>
+            <td>No es una etnia; hay musulmanes de diversas etnias.</td>
+          </tr>
+          <tr>
+            <td>Geografía</td>
+            <td>Musulmanes en todo el mundo (Indonesia, Pakistán, Medio Oriente, África, etc.).</td>
+          </tr>
+          <tr>
+            <td>Cultura</td>
+            <td>Varía según la región; influida por el islam.</td>
+          </tr>
+          <tr>
+            <td>Idioma</td>
+            <td>No hay un idioma único, aunque el árabe es clave en textos religiosos.</td>
+          </tr>
+          <tr>
+            <td>Ejemplos</td>
+            <td>Un cristiano árabe no es musulmán, pero un musulmán en China sí lo es.</td>
+          </tr>
+          <tr>
+            <td>Historia</td>
+            <td>El islam surgió en el siglo VII en Arabia con Mahoma.</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!-- Sección Árabe -->
+    <div class="accordion-item">
+      <div class="accordion-header" onclick="toggleAccordion(this)">Árabe</div>
+      <div class="accordion-content">
+        <table>
+          <tr>
+            <th>Categoría</th>
+            <th>Información</th>
+          </tr>
+          <tr>
+            <td>Definición</td>
+            <td>Persona perteneciente a la etnia árabe o con ascendencia árabe.</td>
+          </tr>
+          <tr>
+            <td>Religión</td>
+            <td>Puede ser musulmán, cristiano, judío u otra religión.</td>
+          </tr>
+          <tr>
+            <td>Etnicidad</td>
+            <td>Sí, es una etnia con raíces en la península arábiga.</td>
+          </tr>
+          <tr>
+            <td>Geografía</td>
+            <td>Principalmente en Medio Oriente y el norte de África.</td>
+          </tr>
+          <tr>
+            <td>Cultura</td>
+            <td>Cultura influida por la lengua y tradiciones árabes.</td>
+          </tr>
+          <tr>
+            <td>Idioma</td>
+            <td>El árabe es el idioma principal.</td>
+          </tr>
+          <tr>
+            <td>Ejemplos</td>
+            <td>Un cristiano libanés es árabe pero no musulmán.</td>
+          </tr>
+          <tr>
+            <td>Historia</td>
+            <td>Los árabes existían antes del islam; influenciaron su expansión.</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!-- Sección Islámico -->
+    <div class="accordion-item">
+      <div class="accordion-header" onclick="toggleAccordion(this)">Islámico</div>
+      <div class="accordion-content">
+        <table>
+          <tr>
+            <th>Categoría</th>
+            <th>Información</th>
+          </tr>
+          <tr>
+            <td>Definición</td>
+            <td>Algo relacionado con el islam.</td>
+          </tr>
+          <tr>
+            <td>Religión</td>
+            <td>Sí, se refiere a todo lo relacionado con el islam.</td>
+          </tr>
+          <tr>
+            <td>Etnicidad</td>
+            <td>No aplica, es un término cultural/religioso.</td>
+          </tr>
+          <tr>
+            <td>Geografía</td>
+            <td>Regiones donde el islam tiene influencia (países con gobiernos islámicos, leyes islámicas).</td>
+          </tr>
+          <tr>
+            <td>Cultura</td>
+            <td>Relacionado con la religión islámica.</td>
+          </tr>
+          <tr>
+            <td>Idioma</td>
+            <td>El árabe es el idioma del Corán, pero hay otras lenguas islámicas (persa, urdu, etc.).</td>
+          </tr>
+          <tr>
+            <td>Ejemplos</td>
+            <td>Arabia Saudita es un país islámico, pero no todos los árabes son islámicos.</td>
+          </tr>
+          <tr>
+            <td>Historia</td>
+            <td>Desde la expansión del islam, se ha aplicado en diferentes contextos.</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <!-- Footer con el crédito -->
+  <footer>
+    Creado por Rodrigo Porres 19001048
+  </footer>
+  <script>
+    // Función para alternar la visibilidad de cada sección del accordion
+    function toggleAccordion(element) {
+      const content = element.nextElementSibling;
+      content.style.display = (content.style.display === "block") ? "none" : "block";
+    }
+  </script>
+</body>
+</html>
